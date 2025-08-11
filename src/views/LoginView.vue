@@ -3,7 +3,7 @@
     <h1>Login</h1>
     <input data-cy="username" placeholder="Username" />
     <input data-cy="password" type="password" placeholder="Password" />
-    <button data-cy="login-btn" @click="login">Login</button>
+    <button data-cy="login-button" @click="login">Login</button> <!-- changed here -->
   </div>
 </template>
 

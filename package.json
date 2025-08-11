@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3000 --host",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "vite",
+    "start": "vite --port 3000 --host",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },
   "dependencies": {
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.3.4",
